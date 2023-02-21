@@ -1,0 +1,35 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 30%;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 25px;
+}
+
+.status {
+  font-size: 24px;
+}
+.button {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 0px, none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text {
+  font-size: 14px;
+  color: #334155;
+}
